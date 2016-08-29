@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Etch-a-Sketch</title>
+        <meta charset="utf-8" />
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <div class="buttons">
+            <span class="text">Grid size (n×n):</span>
+            <input type="number" value="64" id="nOfSquares"/>
+            <input type="button" class="button" value="Simple" onclick="resetSimple();"></input>
+            <input type="button" class="button" value="Random" onclick="resetRandom();"></input>
+            <input type="button" class="button" value="HeatMap" onclick="resetHeatMap();"></input>
+            <input type="button" class="button" value="Gradient" onclick="resetGradient();"></input>
+        </div>
+        <script src="https://code.jquery.com/color/jquery.color-2.1.2.min.js" type="text/javascript"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>

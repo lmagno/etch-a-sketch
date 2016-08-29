@@ -1,0 +1,50 @@
+.buttons {
+    width: 640px;
+    display: inline-block;
+    text-align: center;
+}
+
+.text, #nOfSquares, .button {
+    font-family: monospace;
+}
+
+#nOfSquares {
+    width: 4em;
+    margin: 5px 50px 5px 5px;
+    border: 1px solid hsl(0, 0%, 80%);
+}
+
+.button {
+    background-color: hsl(0, 0%, 98%);
+    border: 1px solid hsl(0, 0%, 95%);
+    border-radius: 2px;
+    margin: 5px;
+    padding: 5px 10px;
+    font-weight: bold;
+    color: hsl(0, 0%, 40%);
+}
+
+#nOfSquares:hover, .button:hover {
+    border-color: hsl(200, 90%, 70%);
+}
+
+.grid {
+    display: table;
+    border-collapse: separate;
+    height: 640px;
+    width: 640px;
+}
+
+.row {
+    display: table-row;
+}
+
+.square {
+    /*background-color: hsl(240, 100%, 30%);*/
+    background-color: hsl(0, 0%, 95%);
+    display: table-cell;
+}
+
+.hover {
+    background-color: #000;
+}
